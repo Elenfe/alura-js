@@ -1,8 +1,15 @@
 // p / altura * altura
 
-var peso = 100
-var altura = 2.0
+var peso = 100;
+var altura = 2.0;
 
-var imc = peso / (altura * altura); // 25
+//var ehDiferenteDeZero = (altura != 0); //false
 
-console.log(imc);
+if(altura != 0){
+    var imc = peso / (altura * altura); // 25
+
+alert(imc);
+}else{
+    alert("Não executei proque a altura é igual a zero");
+}
+
